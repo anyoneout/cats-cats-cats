@@ -1,5 +1,7 @@
+import Link from 'next/link'
+
 export default function HomePage() {
   return (
-    <a href ="/cat">cat</a>
+    <Link href ="/cat">cat</Link>
   )
 }
